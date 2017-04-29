@@ -112,9 +112,9 @@
     <Folder Include=".vs\RosieDiscordBot\v15\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="APIKeys.cs" />
-    <Compile Include="APIKeysLocal.cs" />
-    <Compile Include="RosieDiscordBot.cs" />
+    <Compile Include="RosieDiscordBot\APIKeys.cs" />
+    <Compile Include="RosieDiscordBot\APIKeysLocal.cs" />
+    <Compile Include="RosieDiscordBot\RosieDiscordBot.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
